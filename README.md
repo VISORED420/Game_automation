@@ -27,7 +27,7 @@ pip install opencv-python torch numpy pyautogui pygetwindow keyboard ultralytics
 ### 6. Run the Script
 Once all dependencies are installed, run the script with:
 ```bash
-python game_automation.py
+python runbot.py
 ```
 
 ### 7. Hotkeys
