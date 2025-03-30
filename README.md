@@ -40,17 +40,6 @@ python game_automation.py
 4. Uses `pyautogui` for mouse-based interactions.
 5. Continuously checks for window focus to ensure seamless operation.
 
-## Customization
-Modify `interaction_classes` in the script to define custom actions for detected objects:
-```python
-self.interaction_classes = {
-    'closed_chest': self.interact_chest,
-    'activate_btn': self.interact_activate_button,
-    'left_arrow': self.drag_left_arrow
-}
-```
-Add new class names and corresponding interaction functions as needed.
-
 ## Troubleshooting
 - **Detection Issues**: Ensure the YOLO model is trained on relevant game elements.
 - **Automation Not Working**: Check if the game runs in full-screen mode (windowed mode is recommended).
