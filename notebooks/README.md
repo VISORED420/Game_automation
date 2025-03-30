@@ -1,1 +1,1 @@
-### you can create your custom model using yolo8 collab notebook
+# You can create your custom model using YOLOV8 in Google Collab notebook
